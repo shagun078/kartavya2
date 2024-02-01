@@ -18,11 +18,12 @@ function App () {
       <h1>We Have Worked With</h1>
      
       <div className="title">
-      <h1> TITLE SPONSOR </h1> </div>
+      <h1> TITLE SPONSOR </h1> 
       <div className="titlesponsorimg">
       <Image 
         src={design} 
         alt="design" 
+        id="design"
         style={{
           width: '36.3vw',
           height: '11.2vw',
@@ -39,13 +40,15 @@ function App () {
       </div>
     </div> 
       </div>
+      </div>
 
       <div className="cotitle">
       <h1> CO-TITLE SPONSOR </h1> </div>
       <div className="cotitlesponsorimg">
       <Image 
         src={design} 
-        alt="design" 
+        alt="design"
+        id="designct" 
         style={{
           width: '36.3vw',
           height: '11.2vw',
@@ -67,16 +70,7 @@ function App () {
        <h1> POWERED BY</h1>
       </div>
       <div className='poweredimg'>
-      {/* <Image 
-        src={gucci} 
-        alt="design"
-        style={{
-          width: '100%',
-          height: '100%',
-          color: 'black'
-
-        }}
-      /> */}
+     
       </div>
       
     <div className='sponsorfooter'>
