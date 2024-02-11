@@ -15,7 +15,7 @@ function App () {
     <>
     <div className="App">
 
-      <h1>We Have Worked With</h1>
+      <h1 id="work">We Have Worked With</h1>
      
       <div className="title">
       <h1> TITLE SPONSOR </h1> 
@@ -24,13 +24,7 @@ function App () {
         src={design} 
         alt="design" 
         id="design"
-        style={{
-          width: '36.3vw',
-          height: '11.2vw',
-          position: "absolute",
-          zIndex: '1',
-          right: '31vw',
-        }}
+       
       />
       <div className='card_shadowt'>
       <div className='cardt'>
@@ -50,11 +44,7 @@ function App () {
         alt="design"
         id="designct" 
         style={{
-          width: '36.3vw',
-          height: '11.2vw',
-          position: "absolute",
-          zIndex: '1',
-          right: '30.5vw',
+         
         }}
       />
       <div className='card_shadowct'>
